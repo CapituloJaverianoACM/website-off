@@ -90,14 +90,14 @@ header {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 30%;
+  margin: auto;
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 470px;
+  width: 80%;
   height: 50px;
   padding: 0px 15px 0px 15px;
 
@@ -120,8 +120,7 @@ input:hover {
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
+  width: 80%;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -147,9 +146,9 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
-
-  padding: 0;
+  width: 80%;
+  text-align: center;
+  padding: 5;
   margin: -5px 0px 0px 0px;
 
   font-family: 'Lato', sans-serif;
@@ -165,4 +164,8 @@ textarea:hover {
 
 #submit:hover {
   color: #e2dedb;
+}
+
+.topBefore {
+  text-align: center;
 }
