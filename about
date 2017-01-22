@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Meta -->
+  <title>About</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="ACM brings together students with an interest in building cool things with computer science.
+">
+  <link rel="canonical" href="about">
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata|Rubik|Nunito|Open+Sans:400,700" />
+  <link rel="stylesheet" href="css/main.css">
+  
+    
+    <link rel="stylesheet" href="css/about.css">
+    
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="The Stanford ACM" href="feed.xml" />
+
+  <!-- Analytics -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67994332-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Snap.svg for Easter Egg -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+</head>
+
+
+  <body>
+
+    <aside class="sidebar-left">
+  <div class="logo">
+    <svg width="75" height="75" viewBox="0 0 180 180">
+      <path id="logo" fill="#cc0000" d="m2.66667,4.08333l0,27.22017l116.4,57.7307l-116.4,58.92719l0,27.22018l171.00002,-86.44649l-171.00002,-84.65176z"/>
+    </svg>
+  </div>
+  <div class="title">
+    <h1>The Stanford ACM</h1>
+    <h4>Association for Computing Machinery</h4>
+  </div>
+  <div class="links">
+    <a name="home" href="index.html">events</a>
+    <a name="about" href="about">about</a>
+    <a name="contact" href="contact">contact</a>
+    <a name="officers" href="officers">officers</a>
+    <a name="sponsors" href="sponsors">sponsors</a>
+    <a name="enigma" href="http://enigma.stanfordacm.com">enigma</a>
+  </div>
+</aside>
+
+
+    <div class="page-content">
+      <section>
+  <h1>About</h1>
+
+  <p>ACM is Stanford’s premier computer science organization. We are a community of passionate students who build exciting projects to tackle challenging technical and social problems. Over time, self-starting individuals have created an enduring culture evidenced by a wide-range of ACM projects in recent years -- most notably YouTube Instant, the predecessor to YouTube’s current autocomplete feature, as well as the technology behind acquired startups Fancy That (Palantir, 2015) and PeerCDN (Yahoo, 2013).</p>
+</section>
+
+<section>
+  <h1>Activities</h1>
+
+  <h2><a>ACM.IO Speaker Series</a></h2>
+  <p>The ACM.IO speaker series exposes a highly technical audience of computer science and engineering students to emerging technologies used in industry. Past speaker series included presentations about React, Semantic UI, Angular2, Ember.js, machine learning, and other technical topics.</p>
+
+  <h2><a>Enigma Puzzlehunt</a></h2>
+  <p>Engima Puzzlehunt is a timed problem-solving challenge geared towards students interested in puzzle-solving and computer science. Over the course of a day, students will form groups and solve logic puzzles, brain teasers, and coding challenges for prizes.</p>
+
+  <h2><a>Escape the Room</a></h2>
+  <p>Escape the Room is physical adventure game in which players are locked in a room and have to use elements of the room to solve a series of puzzles and escape within a set time limit.</p>
+</section>
+
+    </div>
+
+    <!-- Borrowed scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Our scripts -->
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
