@@ -60,6 +60,22 @@ dc.loadOfficers = function() {
   document.getElementById("officersId").className = "selected";
 };
 
+dc.foo = function() {
+  console.log("Hello Sebas");
+  emailjs.send("gmail", "template_nOdqYSC1", {
+          name: "James",
+          notes: "Check this out!",
+          reply_email: 'john@doe.com',
+          message: 'This is awesome!'
+      })
+      .then(function(response) {
+          console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+      }, function(err) {
+          console.log("FAILED. error=", err);
+      });
+  console.log("Bye Sebas");
+};
+
 function deselctAll() {
   document.getElementById("homeId").className = "";
   document.getElementById("aboutId").className = "";
