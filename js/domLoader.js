@@ -6,6 +6,7 @@ var eventsHtml = "snippets/events.html";
 var aboutHtml = "snippets/about.html";
 var contactHtml = "snippets/contact.html";
 var officersHtml = "snippets/officers.html";
+var calendarHtml = "snippets/calendar.html";
 
 
 // Loads activity page
@@ -60,27 +61,26 @@ dc.loadOfficers = function() {
   document.getElementById("officersId").className = "selected";
 };
 
-dc.foo = function() {
-  console.log("Hello Sebas");
-  emailjs.send("gmail", "template_nOdqYSC1", {
-          name: "James",
-          notes: "Check this out!",
-          reply_email: 'john@doe.com',
-          message: 'This is awesome!'
-      })
-      .then(function(response) {
-          console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-      }, function(err) {
-          console.log("FAILED. error=", err);
-      });
-  console.log("Bye Sebas");
+dc.loadCalendar = function () {
+  $ajaxUtils.sendGetRequest(
+    calendarHtml,
+    function(responseText) {
+      document.querySelector(".page-content")
+        .innerHTML = responseText;
+    },
+    false
+  );
+  deselctAll();
+  document.getElementById("calendarId").className = "selected";
 };
+
 
 function deselctAll() {
   document.getElementById("homeId").className = "";
   document.getElementById("aboutId").className = "";
   document.getElementById("contId").className = "";
   document.getElementById("officersId").className = "";
+  document.getElementById("calendarId").className = "";
 }
 
 global.$dc = dc;
