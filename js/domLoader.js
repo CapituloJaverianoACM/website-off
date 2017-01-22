@@ -28,6 +28,8 @@ dc.loadAbout = function() {
     },
     false
   );
+  deselctAll();
+  document.getElementById("aboutId").className = "selected";
 };
 
 // Loads contact page
@@ -40,6 +42,8 @@ dc.loadContact = function() {
     },
     false
   );
+  deselctAll();
+  document.getElementById("contId").className = "selected";
 };
 
 // Loads officers page
@@ -52,7 +56,16 @@ dc.loadOfficers = function() {
     },
     false
   );
+  deselctAll();
+  document.getElementById("officersId").className = "selected";
 };
+
+function deselctAll() {
+  document.getElementById("homeId").className = "";
+  document.getElementById("aboutId").className = "";
+  document.getElementById("contId").className = "";
+  document.getElementById("officersId").className = "";
+}
 
 global.$dc = dc;
 

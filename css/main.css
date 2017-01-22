@@ -9,7 +9,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 /** Basic styling */
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
@@ -759,7 +760,7 @@ pre>code {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #0f0f0f;
+    background-color: #042860;
     width: 360px;
     height: 100%;
     padding: 80px 0;
@@ -773,7 +774,7 @@ pre>code {
 .sidebar-left .title {
     text-align: center;
     margin: 15px auto 30px;
-    color: #828282;
+    color: #FFF;
 }
 
 .sidebar-left .title h1 {
@@ -790,15 +791,15 @@ pre>code {
     text-align: center;
     margin: 10px 0;
     font-size: 20px;
-    color: #828282;
+    color: #FFF;
 }
 
 .sidebar-left .links a:hover {
-    color: #e8e8e8;
+    color: #FFCC00;
 }
 
 .sidebar-left .links .selected {
-    color: #e8e8e8;
+    color: #FFCC00;
 }
 
 
